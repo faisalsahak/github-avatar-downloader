@@ -35,6 +35,10 @@ switch(response.headers['content-type']){
   case "image/pjpeg":
   ext = '.jpg';
   break;
+        
+  case "image/png":
+  ext = ".png";
+  break;
 
   case "image/gif":
   ext = ".gif";
